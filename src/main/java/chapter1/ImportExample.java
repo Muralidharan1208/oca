@@ -8,7 +8,10 @@ public class ImportExample {
 
         Random r = new Random();
 
-        System.out.println(r.nextInt(11));
+        int r1 = r.nextInt(5, 11);
+
+        // System.out.println(r.nextInt(11));
+        System.out.println("r1 = " + r1);
     }
     
 }
